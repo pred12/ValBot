@@ -118,6 +118,12 @@ body::-webkit-scrollbar {
   transition: all .1s;
 }
 
+@media all and (max-width: 1024px) {
+  .btn, .btn:link, .btn:visited {
+    font-size: 1.5rem;
+  }
+}
+
 .btn--white {
   color: black;
   background-color: white;
@@ -150,6 +156,12 @@ body::-webkit-scrollbar {
   text-transform: uppercase;
   -webkit-transition: all 1s;
   transition: all 1s;
+}
+
+@media all and (max-width: 1024px) {
+  .header {
+    font-size: 2rem;
+  }
 }
 
 .header__main-text {
@@ -192,6 +204,12 @@ body::-webkit-scrollbar {
           animation: moveInFromLeft 1s ease-out .2s;
 }
 
+@media all and (max-width: 1024px) {
+  .main__header {
+    font-size: 1.5rem;
+  }
+}
+
 .main__header:hover {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
@@ -230,8 +248,20 @@ body::-webkit-scrollbar {
   transition: all .5s;
 }
 
+@media all and (max-width: 1024px) {
+  .main__commands-flexitems {
+    margin-bottom: 5rem;
+  }
+}
+
 .main__commands-flexitems h4 {
   font-size: larger;
+}
+
+@media all and (max-width: 1024px) {
+  .main__commands-flexitems h4 {
+    font-size: 1.6rem;
+  }
 }
 
 .main__commands-flexitems li {
@@ -239,6 +269,12 @@ body::-webkit-scrollbar {
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+@media all and (max-width: 1024px) {
+  .main__commands-flexitems li {
+    font-size: 1.2rem;
+  }
 }
 
 .main__commands-flexitems li:not(:last-child) {
